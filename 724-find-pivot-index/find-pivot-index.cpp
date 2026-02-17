@@ -14,7 +14,7 @@ public:
             if(left == rightsum)
                 return i;
             
-            left += nums[i];
+            left =left+nums[i];
         }
         
         return -1;
