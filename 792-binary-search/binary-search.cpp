@@ -5,15 +5,16 @@ public:
         int start=0,end=n-1,mid;
         while(start<=end)
         {
-            mid=(start+end)/2;
-            if(arr[mid]==key)
-            return mid;
-            else if(arr[mid]<key)
+         mid=(start+end)/2;
+         if(arr[mid]==key)
+         return mid;
+        else if(arr[mid]<key)
             start=mid+1;
-            else
+        else
             end=mid-1;
         }
         return -1;
-        
     }
-};
+        };
+        
+        
