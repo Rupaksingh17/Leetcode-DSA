@@ -1,7 +1,6 @@
 class Solution {
 public:
-    void sortColors(vector<int>& nums) {
-        sort(nums.begin(),nums.end());
-        
+    void sortColors(vector<int>& arr) {
+   sort(arr.begin(),arr.end());
     }
 };
